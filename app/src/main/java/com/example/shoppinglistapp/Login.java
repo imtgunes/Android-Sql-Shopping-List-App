@@ -43,6 +43,8 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.loginBackground));
+
         connectionClass = new ConnectionClass();
         connection = connectionClass.connection();
         //Toast.makeText(Login.this,"conn"+connection,Toast.LENGTH_SHORT).show();

@@ -32,6 +32,8 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.loginBackground));
+
         connectionClass = new ConnectionClass();
         connection = connectionClass.connection();
 

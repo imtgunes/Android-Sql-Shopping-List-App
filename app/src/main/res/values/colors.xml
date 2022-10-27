@@ -21,4 +21,5 @@
     <color name="categoryBackground">#EEF0F7</color>
     <color name="bottomBackground">#FFFFFF</color>
     <color name="productItem">#1f3b63</color>
+    <color name="loginBackground">#0D000000</color>
 </resources>
